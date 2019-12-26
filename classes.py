@@ -1,7 +1,11 @@
 import pygame
 import random
-from constants import LEVEL_FILE, ETHER_CHAR, NEEDLE_CHAR, TUBE_CHAR, ARRIVAL_IMAGE, ETHER_IMAGE, NEEDLE_IMAGE, TUBE_IMAGE, WALL_IMAGE, SPRITE_SIZE, SPRITE_NUM, HELPER
+from constants import (LEVEL_FILE, ETHER_CHAR, NEEDLE_CHAR,
+                       TUBE_CHAR, ARRIVAL_IMAGE, ETHER_IMAGE,
+                       NEEDLE_IMAGE, TUBE_IMAGE, WALL_IMAGE,
+                       SPRITE_SIZE, SPRITE_NUM, HELPER)
 currentFile = "classes"
+
 
 class Maze:
     def __init__(self):
@@ -61,7 +65,8 @@ class Maze:
                 elif sprite == TUBE_CHAR:
                     window.blit(tube, (pos_x, pos_y))
                 case_n += 1
-            line_n +=1
+            line_n += 1
+
 
 class Character:
     def __init__(self, macgyver, maze):
