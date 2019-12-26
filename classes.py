@@ -1,4 +1,5 @@
-import os, pygame, random
+import pygame
+import random
 from constants import LEVEL_FILE, ETHER_CHAR, NEEDLE_CHAR, TUBE_CHAR, ARRIVAL_IMAGE, ETHER_IMAGE, NEEDLE_IMAGE, TUBE_IMAGE, WALL_IMAGE, SPRITE_SIZE, SPRITE_NUM, HELPER
 currentFile = "classes"
 
