@@ -8,6 +8,7 @@ currentFile = "classes"
 
 
 class Maze:
+    """This class is about generating and displaying the maze and the three items"""
     def __init__(self):
         self.items = 0
         self.structure = self.generate()
@@ -69,6 +70,7 @@ class Maze:
 
 
 class Character:
+    """This class is about the character's movements and deleting items"""
     def __init__(self, macgyver, maze):
         self.macgyver = macgyver
         self.maze = maze
